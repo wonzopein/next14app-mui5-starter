@@ -36,7 +36,7 @@ export default function Home() {
                 </IconButton>
             </Toolbar>
         </AppBar>
-        <Container sx={{ mt:8 }}>
+        <Container sx={{ pt:8 }}>
             <Box>
                 <Button>Button</Button>
                 <Button variant={"contained"}>Button</Button>

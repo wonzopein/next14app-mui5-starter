@@ -41,7 +41,7 @@ export default function Signin() {
                     <Typography variant={"body2"}>
                         Sign in to your account
                     </Typography>
-                    <TextField required fullWidth margin={"normal"} id={"id"} name={"id"} label={"아이디"} />
+                    <TextField required fullWidth margin={"normal"} id={"id"} name={"id"} label={"아이디"}/>
                     <TextField required fullWidth margin={"normal"} id={"password"} name={"password"} type={"password"} label={"패스워드"} />
                     <Button fullWidth variant={"contained"} type={"submit"} sx={{ my:2}}>로그인</Button>
                 </CardContent>
